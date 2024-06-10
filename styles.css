@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenier{
+    background-color: #218fb6bb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    margin: 10px 5px;
+    font-size: 65px;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    transition: opacity 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock{
+    background-color: #0b9b70c1;
+}
+
+#paper{
+    background-color: #d30a50c0;
+}
+
+#scissors{
+    background-color: #000000ab;
+}
+
+h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+p{
+    font-size: 25px;
+    color: #fff;
+}
+
+.your-score span{
+    color: blue;
+    font-size: 35px;
+}
+
+.machine-score span{
+    color: red;
+    font-size: 35px;
+}
